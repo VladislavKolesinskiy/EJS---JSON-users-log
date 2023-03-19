@@ -1,0 +1,17 @@
+body {
+	background: #000;
+	color: #fff;
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	text-align: center;
+}
+a {
+	color: green;
+}
+ul {
+	background: #666;
+	border-radius: 20px;
+	display: inline-block;
+	padding: 20px 20px 20px 40px;
+	text-align: left;
+}

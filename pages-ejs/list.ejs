@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>List Page</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<h3>Список пользователей</h3>
+	
+	<ul>
+		<% for(var i=0; i<users.length;i++) {%>
+		<li>
+			<strong>Имя:</strong> <%= users[i].name %>,  
+			<strong>Возраст:</strong> <%= users[i].age %>, 
+			<strong>Страна:</strong> <%= users[i].country %>
+		</li>
+		<%} %>
+	</ul>
+	<p><a href="/">Создать новых</a></p>
+	
+</body>
+</html>
